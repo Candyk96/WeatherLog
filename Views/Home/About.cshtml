@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "About WeatherLog";
+}
+
+<h1>About Weather Log</h1>
+
+<h3>App</h3>
+<p>With this app you can store weather data for a specific date. It is possible to add new dates with weather information,
+and that information can be viewed, edited and deleted if necessrary. App can also be used to store other information from nature which are 
+not weather related.</p>
+<p>The main view shows dates with basic weather data listed in a table and all actions for that specific date. A more detailed view 
+for a date can be seen by clicking the "Details" button.</p>
+
+<h3>Weather Data</h3>
+<p>The weather data is collected from the Finnish Meteorological Institute's (Ilmatieteen laitos) website, where it is possible 
+    to see data for a observation station at the Kuopio airport, located 14 kilometers northeast from Kuopio city center.
+    The environment near the station consists of lakes, spruce forest or mixed forest while ground itself is mostly moraine. There are also plenty of hills and fields around the area.
+    The conditions at the station represent the conditions around Northern Kuopio quite well. There is another observation station near Kuopio city center, 
+    and while the data from that station is accurate for the area around city center, it is not 100 per cent representative for a wider area. However, the other station (Savilahti) may
+    be used for additional information, for example cloud level, precipitation amount and snow depth. There are some weather phenomenon that
+    the observation stations do not notify, because they either do not collect such data or the conditions are limited to a very local area.
+    In those cases, in-person observations can be used.</p>
+
+<p>Currently it is possible to add for a specific date:
+    <ul>
+        <li>The highest and lowest temperatues</li>
+        <li>Temperatures for certain moments during the day (morning, afternoon, evening)</li>
+        <li>Wind: average, strongest gust, direction</li>
+        <li>Humidity</li>
+        <li>Basic weather information in a few keywords, for example "clear" or "overcast, rain"</li>
+        <li>More detailed weather information, for example how the weather changed throughout the day</li>
+        <li>Other information that does not need to be necessarily related to current weather, for example comparison to historical data or other observations from nature</li>
+    </ul>
+    The temperatures are 100 per cent accurate as one specific value is taken from a line chart. They are then rounded to the nearest integer. The same applies for wind gust values.
+    Average wind is taken as an estimation from the line chart, so this might not always be perfect, but if there is any difference, it
+    is usually just +/- 1 m/s. If there is a very clear pattern in wind direction throughout the day, that particular direction is added
+    (for example: Southwest). If there is no clear pattern, "Various directions" can be used. Humidity is also taken as an estimate, and
+    it is rounded to the nearest 5 %. 
+</p>
+<p>The description text fields can be filled with information collected from weather stations, in-person observations, or both.
+</p>

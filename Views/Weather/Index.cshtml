@@ -1,0 +1,110 @@
+@model IEnumerable<WeatherLog.Models.Weather>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a><span class="info-icon">&#x1F6C8;<span class="info-info">Data is taken from a weather station at the Kuopio Airport, which is located 14 kilometers northeast from Kuopio city center.</span></span>    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.MorningTemp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AfternoonTemp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EveningTemp)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.MaxTemp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MinTemp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AverageWind)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WindGust)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WindDirection)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Humidity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BasicInfo)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.DetailedInfo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OtherInfo)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.MorningTemp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AfternoonTemp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EveningTemp)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxTemp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinTemp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AverageWind)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WindGust)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WindDirection)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Humidity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BasicInfo)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.DetailedInfo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherInfo)
+            </td>*@
+            <td>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-details" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                <a class="btn btn-danger" style="margin-top: 2px" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>

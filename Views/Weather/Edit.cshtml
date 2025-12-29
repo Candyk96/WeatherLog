@@ -1,0 +1,94 @@
+@model WeatherLog.Models.Weather
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Weather</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" /><span class="warning-icon">&#9888;<span class="warning-info">Entering a date which already exists in the database will result in a database error.</span></span>
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="MaxTemp" class="control-label"></label>
+                <input asp-for="MaxTemp" class="form-control" />
+                <span asp-validation-for="MaxTemp" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="MinTemp" class="control-label"></label>
+                <input asp-for="MinTemp" class="form-control" />
+                <span asp-validation-for="MinTemp" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="MorningTemp" class="control-label"></label>
+                <input asp-for="MorningTemp" class="form-control" />
+                <span asp-validation-for="MorningTemp" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="AfternoonTemp" class="control-label"></label>
+                <input asp-for="AfternoonTemp" class="form-control" />
+                <span asp-validation-for="AfternoonTemp" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="EveningTemp" class="control-label"></label>
+                <input asp-for="EveningTemp" class="form-control" />
+                <span asp-validation-for="EveningTemp" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="AverageWind" class="control-label"></label>
+                <input asp-for="AverageWind" class="form-control" />
+                <span asp-validation-for="AverageWind" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="WindGust" class="control-label"></label>
+                <input asp-for="WindGust" class="form-control" />
+                <span asp-validation-for="WindGust" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="WindDirection" class="control-label"></label>
+                <input asp-for="WindDirection" class="form-control" />
+                <span asp-validation-for="WindDirection" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="Humidity" class="control-label"></label>
+                <input asp-for="Humidity" class="form-control" />
+                <span asp-validation-for="Humidity" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="BasicInfo" class="control-label"></label>
+                <input asp-for="BasicInfo" class="form-control" />
+                <span asp-validation-for="BasicInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 35px">
+                <label asp-for="DetailedInfo" class="control-label"></label>
+                <input asp-for="DetailedInfo" class="form-control" />
+                <span asp-validation-for="DetailedInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OtherInfo" class="control-label"></label>
+                <input asp-for="OtherInfo" class="form-control" />
+                <span asp-validation-for="OtherInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-top: 4px">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-info" style="margin-top: 4px" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

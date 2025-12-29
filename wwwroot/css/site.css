@@ -1,0 +1,94 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.btn-details {
+  background-color: indigo;
+  color: white;
+}
+
+.btn-details:hover, .btn-details:focus, .btn-details:active, .btn-details.active:focus, .open>.dropdown-toggle.btn-details {
+    color: #fff !important;
+    background-color: rgb(36, 0, 61) !important;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.warning-icon {
+  font-family: 'Segoe MDL2 Assets';
+  display: inline;
+  position: relative;
+  bottom: 50px;
+  font-size: 2em;
+  margin-left: 110%;
+}
+
+.warning-info {
+  visibility: hidden; /* Hidden by default */
+  width: 300px;
+  background-color: rgb(109, 0, 0);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 4s;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+.warning-icon:hover .warning-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.info-icon {
+  font-family: 'Segoe MDL2 Assets';
+  display: inline;
+  /*position: relative;*/
+  bottom: 20px;
+  font-size: 2em;
+  margin-left: 90%;
+}
+
+.info-info {
+  visibility: hidden; /* Hidden by default */
+  width: 300px;
+  background-color: rgb(0, 110, 255);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 4s;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+.info-icon:hover .info-info {
+  visibility: visible;
+  opacity: 1;
+}

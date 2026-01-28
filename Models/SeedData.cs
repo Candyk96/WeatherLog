@@ -1285,6 +1285,125 @@ public static class SeedData
                     WindDirection = "East-northeast",
                     Humidity = 90,
                     BasicInfo = "AM: overcast, PM: rain"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-1"),
+                    MaxTemp = "5",
+                    MinTemp = "3",
+                    AverageWind = "2",
+                    WindGust = "4",
+                    WindDirection = "Various directions",
+                    Humidity = 95,
+                    BasicInfo = "Rain during night"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-2"),
+                    MaxTemp = "6",
+                    MinTemp = "2",
+                    AverageWind = "4",
+                    WindGust = "10",
+                    WindDirection = "Southeast",
+                    Humidity = 90,
+                    BasicInfo = "Overcast, evening: rain",
+                    DetailedInfo = "Highest temperature during late evening"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-3"),
+                    MaxTemp = "8",
+                    MinTemp = "6",
+                    AverageWind = "3",
+                    WindGust = "6",
+                    WindDirection = "Southwest",
+                    Humidity = 95,
+                    BasicInfo = "AM: rain, PM: overcast"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-4"),
+                    MaxTemp = "8",
+                    MinTemp = "5",
+                    AverageWind = "5",
+                    WindGust = "12",
+                    WindDirection = "South-southwest",
+                    Humidity = 85,
+                    BasicInfo = "Partly cloudy, evening: rain",
+                    DetailedInfo = "Highest temperature during late evening (23:50)"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-5"),
+                    MaxTemp = "11",
+                    MinTemp = "8",
+                    AverageWind = "4",
+                    WindGust = "10",
+                    WindDirection = "Southwest",
+                    Humidity = 90,
+                    BasicInfo = "Overcast, rain",
+                    DetailedInfo = "Rain during night/early morning and again during evening",
+                    OtherInfo = "10 degrees warmer than average"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-6"),
+                    MaxTemp = "11",
+                    MinTemp = "6",
+                    AverageWind = "5",
+                    WindGust = "11",
+                    WindDirection = "West",
+                    Humidity = 85,
+                    BasicInfo = "Partly cloudy",
+                    DetailedInfo = "Rain during night. Highest temperature at night (1:30)",
+                    OtherInfo = "10 degrees warmer than average"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-7"),
+                    MaxTemp = "6",
+                    MinTemp = "3",
+                    AverageWind = "3",
+                    WindGust = "7",
+                    WindDirection = "West",
+                    Humidity = 90,
+                    BasicInfo = "Overcast",
+                    DetailedInfo = "Highest temperature at midnight"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-8"),
+                    MaxTemp = "4",
+                    MinTemp = "2",
+                    AverageWind = "3",
+                    WindGust = "7",
+                    WindDirection = "Various directions",
+                    Humidity = 90,
+                    BasicInfo = "Overcast, evening: rain"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-9"),
+                    MaxTemp = "6",
+                    MinTemp = "-2",
+                    AverageWind = "4",
+                    WindGust = "10",
+                    WindDirection = "Various directions",
+                    Humidity = 90,
+                    BasicInfo = "Overcast, after 15:00: clear",
+                    DetailedInfo = "Rain during night"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-11-10"),
+                    MaxTemp = "1",
+                    MinTemp = "-4",
+                    AverageWind = "3",
+                    WindGust = "6",
+                    WindDirection = "West",
+                    Humidity = 90,
+                    BasicInfo = "Mostly clear, evening: fog",
+                    DetailedInfo = "Frost during whole day"
                 }
             );
             context.SaveChanges();

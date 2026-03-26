@@ -1873,6 +1873,136 @@ public static class SeedData
                     WindDirection = "Southwest",
                     Humidity = 90,
                     BasicInfo = "Mostly cloudy, showers"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-21"),
+                    MaxTemp = "4",
+                    MinTemp = "-1",
+                    AverageWind = "5",
+                    WindGust = "11",
+                    WindDirection = "Northwest",
+                    Humidity = 90,
+                    BasicInfo = "Overcast, rain, snow",
+                    DetailedInfo = "Highest temperatures during night. Rain during night, snow during evening as temperature drops",
+                    OtherInfo = "Winter solstice"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-22"),
+                    MaxTemp = "-1",
+                    MinTemp = "-7",
+                    AverageWind = "3",
+                    WindGust = "9",
+                    WindDirection = "Northeast",
+                    Humidity = 65,
+                    BasicInfo = "Mostly cloudy",
+                    OtherInfo = "Snow depth: 3 cm"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-23"),
+                    MaxTemp = "-4",
+                    MinTemp = "-8",
+                    AverageWind = "4",
+                    WindGust = "9",
+                    WindDirection = "West",
+                    Humidity = 70,
+                    BasicInfo = "Partly cloudy"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-24"),
+                    MaxTemp = "-2",
+                    MinTemp = "-4",
+                    AverageWind = "4",
+                    WindGust = "8",
+                    WindDirection = "Northwest",
+                    Humidity = 90,
+                    BasicInfo = "Overcast"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-25"),
+                    MaxTemp = "5",
+                    MinTemp = "-2",
+                    AverageWind = "6",
+                    WindGust = "14",
+                    WindDirection = "Various directions",
+                    Humidity = 80,
+                    BasicInfo = "Overcast, evening: clear"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-26"),
+                    MaxTemp = "1",
+                    MinTemp = "-1",
+                    AverageWind = "4",
+                    WindGust = "12",
+                    WindDirection = "Northwest",
+                    Humidity = 80,
+                    BasicInfo = "Clear",
+                    DetailedInfo = "Frost at some places",
+                    OtherInfo = "Snow depth: 0 cm"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-27"),
+                    MaxTemp = "2",
+                    MinTemp = "-2",
+                    AverageWind = "5",
+                    WindGust = "14",
+                    WindDirection = "Various directions",
+                    Humidity = 75,
+                    BasicInfo = "Partly cloudy, snow",
+                    DetailedInfo = "An approaching winter storm causing wind to increase towards late evening. Snowfall during evening"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-28"),
+                    MaxTemp = "0",
+                    MinTemp = "-10",
+                    AverageWind = "6",
+                    WindGust = "19",
+                    WindDirection = "North-northwest",
+                    Humidity = 85,
+                    BasicInfo = "Partly cloudy, snow snowers, windy",
+                    DetailedInfo = "Strongest winds during night and early morning. Wind decreasing rapidly after midday. Highest temperature at midnight, lowest at afternoon (16:20)"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-29"),
+                    MaxTemp = "-2",
+                    MinTemp = "-7",
+                    AverageWind = "6",
+                    WindGust = "12",
+                    WindDirection = "Various directions",
+                    Humidity = 85,
+                    BasicInfo = "Heavy snowfall"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-30"),
+                    MaxTemp = "-4",
+                    MinTemp = "-15",
+                    AverageWind = "6",
+                    WindGust = "12",
+                    WindDirection = "North-northwest",
+                    Humidity = 85,
+                    BasicInfo = "Snow, overcast, evening: clear",
+                    DetailedInfo = "Snow during night and morning",
+                    OtherInfo = "Snow depth: 14 cm. Lake frozen"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2025-12-31"),
+                    MaxTemp = "-14",
+                    MinTemp = "-18",
+                    AverageWind = "4",
+                    WindGust = "8",
+                    WindDirection = "Northwest",
+                    Humidity = 85,
+                    BasicInfo = "Mostly clear"
                 }
 
             );

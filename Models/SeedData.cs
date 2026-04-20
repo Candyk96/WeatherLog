@@ -2003,6 +2003,120 @@ public static class SeedData
                     WindDirection = "Northwest",
                     Humidity = 85,
                     BasicInfo = "Mostly clear"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-1"),
+                    MaxTemp = "-17",
+                    MinTemp = "-23",
+                    AverageWind = "2",
+                    WindGust = "5",
+                    WindDirection = "Various directions",
+                    Humidity = 80,
+                    BasicInfo = "Partly cloudy, fog"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-2"),
+                    MaxTemp = "-13",
+                    MinTemp = "-23",
+                    AverageWind = "3",
+                    WindGust = "7",
+                    WindDirection = "Northeast",
+                    Humidity = 85,
+                    BasicInfo = "Overcast, light snowfall",
+                    DetailedInfo = "Highest temperature at 23:50"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-3"),
+                    MaxTemp = "-11",
+                    MinTemp = "-17",
+                    AverageWind = "4",
+                    WindGust = "8",
+                    WindDirection = "East-northeast",
+                    Humidity = 80,
+                    BasicInfo = "Overcast, light snowfall"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-4"),
+                    MaxTemp = "-16",
+                    MinTemp = "-23",
+                    AverageWind = "3",
+                    WindGust = "6",
+                    WindDirection = "North-northwest",
+                    Humidity = 80,
+                    BasicInfo = "Mostly clear",
+                    DetailedInfo = "Overcast during night and early morning. Highest temperature during early morning. Clear skies causing temperature drop"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-5"),
+                    MaxTemp = "-11",
+                    MinTemp = "-23",
+                    AverageWind = "2",
+                    WindGust = "6",
+                    WindDirection = "Various directions",
+                    Humidity = 85,
+                    BasicInfo = "Overcast",
+                    OtherInfo = "Snow depth: 13 cm"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-6"),
+                    MaxTemp = "-11",
+                    MinTemp = "-16",
+                    AverageWind = "2",
+                    WindGust = "6",
+                    WindDirection = "Various directions",
+                    Humidity = 85,
+                    BasicInfo = "Overcast, light snow"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-7"),
+                    MaxTemp = "-12",
+                    MinTemp = "-16",
+                    AverageWind = "3",
+                    WindGust = "6",
+                    WindDirection = "East-northeast",
+                    Humidity = 85,
+                    BasicInfo = "Partly cloudy"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-8"),
+                    MaxTemp = "-15",
+                    MinTemp = "-23",
+                    AverageWind = "1",
+                    WindGust = "4",
+                    WindDirection = "North",
+                    Humidity = 80,
+                    BasicInfo = "Clear"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-9"),
+                    MaxTemp = "-21",
+                    MinTemp = "-26",
+                    AverageWind = "2",
+                    WindGust = "4",
+                    WindDirection = "North-northwest",
+                    Humidity = 80,
+                    BasicInfo = "Clear"
+                },
+                new Weather
+                {
+                    Date = DateTime.Parse("2026-1-10"),
+                    MaxTemp = "-7",
+                    MinTemp = "-23",
+                    AverageWind = "3",
+                    WindGust = "8",
+                    WindDirection = "Northwest and northeast",
+                    Humidity = 85,
+                    BasicInfo = "Snow",
+                    DetailedInfo = "Snowfall causing temperatures to rise. Highest temperature at 23:50"
                 }
 
             );

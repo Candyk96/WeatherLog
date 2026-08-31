@@ -28,54 +28,54 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Project/WeatherLog/Views/Home/About.cshtml]
+[d:/Project/WeatherLog/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Home/Index.cshtml]
+[d:/Project/WeatherLog/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Home/Privacy.cshtml]
+[d:/Project/WeatherLog/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Shared/Error.cshtml]
+[d:/Project/WeatherLog/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Project/WeatherLog/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Weather/Create.cshtml]
+[d:/Project/WeatherLog/Views/Weather/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Weather/Delete.cshtml]
+[d:/Project/WeatherLog/Views/Weather/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Weather/Details.cshtml]
+[d:/Project/WeatherLog/Views/Weather/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Weather/Edit.cshtml]
+[d:/Project/WeatherLog/Views/Weather/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Weather/Index.cshtml]
+[d:/Project/WeatherLog/Views/Weather/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/_ViewImports.cshtml]
+[d:/Project/WeatherLog/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/_ViewStart.cshtml]
+[d:/Project/WeatherLog/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/WeatherLog/Views/Shared/_Layout.cshtml]
+[d:/Project/WeatherLog/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qs3extlftc

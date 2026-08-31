@@ -20,9 +20,20 @@ namespace WeatherLog.Controllers
         }
 
         // GET: Weather
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Weather.ToListAsync());
+            if (_context.Weather == null)
+            {
+                return Problem("Entity set 'WeatherLogContext.Weather' is null.");
+            }
+
+            var dates = from w in _context.Weather select w;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                dates = dates.Where(w => w.Date.ToString().Contains(searchString));
+            }
+            return View(await dates.ToListAsync());
         }
 
         // GET: Weather/Details/5
